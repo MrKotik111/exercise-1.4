@@ -1,0 +1,61 @@
+<?php
+
+abstract class Figure
+{
+  // метод получения площади
+	abstract public function getS();
+  // метод получения периметра
+  abstract public function getP();
+}
+
+class Triangle extends Figure
+{
+  public function getS()
+  {
+    // code
+  }
+  
+  public function getP()
+  {
+    // code
+  }
+}
+
+class Circle extends Figure
+{
+  public function getS()
+  {
+    // code
+  }
+  
+  public function getP()
+  {
+    // code
+  }
+}
+
+class Rectangle extends Figure
+{
+  public function getS()
+  {
+    // code
+  }
+  
+  public function getP()
+  {
+    // code
+  }
+}
+
+class Square extends Rectangle
+{
+  public function getS()
+  {
+    // code
+  }
+  
+  public function getP()
+  {
+    // code
+  }
+}
